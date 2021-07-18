@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 120px;
+  margin-top: -50px;
+}
+
+h2 {
+  padding: 5px 5px 5px 0px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.box {
+  max-width: 800px;
+  max-height: 900px;
+  display: block;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.input-group {
+  margin-top: 100px;
+}
+
+.row {
+  margin-top: 70px;
+}
+
+.main {
+  font-size: 25px;
+  display: block;
+}
+
+.bigSun {
+  width: 100px;
+}
+
+.cf {
+  font-size: 15px;
+}
+
+#c {
+  margin-left: 150px;
+}
+
+#c:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#f:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.days img {
+  width: 50px;
+}
+
+.days {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.temp {
+  font-size: 20px;
+  font-weight: normal;
+}
+#search {
+  display: block;
+}
+#searchButton {
+  display: block;
+  max-width: 80px;
+  margin-left: 500px;
+  margin-top: -38px;
+}
+
+.container {
+  margin-left: 60px;
+  margin-bottom: 50px;
+}

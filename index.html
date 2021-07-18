@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="box">
+    <div class="container">
+      <div class="input-group rounded">
+        <form id="engine">
+        <input 
+          type="search"
+          class="form-control rounded"
+          placeholder="Search"
+          id = "search"
+        />
+        <input type="submit" value="Search" class="form-control rounded" id="searchButton" />
+        </form>
+      </div>
+      <div class="row">
+       <div class="col-6">
+      <span class="main">Currently </span>
+      <div id="date">(Current date)</div>
+      <img class="bigSun" src="sun.jpg" alt="Sun">
+      <h1>23°</h1>
+      <span class="cf" id="c">C</span>  
+      <span class="cf"> | </span>  
+      <span class="cf" id="f">F</span>  
+      <span class="main"> in </span>
+      <h2>London
+      </h2>
+   
+      <span class="info">Precipitation 0%</br>Humidity 60%</span>
+      </div>
+      <div class="col-6">
+        <div class="days">Mon
+          <img src="sun.jpg" alt="Sun">
+          <span class="temp">25° / 19°</span>
+        </div>
+        <div class="days">Tue
+           <img src="sun.jpg" alt="Sun">
+          <span class="temp">28° / 21°</span>
+        </div>
+        <div class="days">Wed
+           <img src="sun.jpg" alt="Sun">
+          <span class="temp">28° / 23°</span>
+        </div>
+        <div class="days">Thu
+           <img src="sun.jpg" alt="Sun">
+          <span class="temp">29° / 25°</span>
+          <div class="days">Fri
+             <img src="sun.jpg" alt="Sun">
+            <span class="temp">31° / 26°</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
