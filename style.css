@@ -15,6 +15,11 @@ h2 {
   font-weight: bold;
 }
 
+button {
+  background: 00000;
+  border-radius: 5px;
+}
+
 .box {
   max-width: 800px;
   max-height: 900px;
@@ -66,6 +71,7 @@ h2 {
 .info {
   font-size: 15px;
   opacity: 0.8;
+  display: block;
 }
 
 .days img {
@@ -85,7 +91,7 @@ h2 {
 #search {
   display: block;
 }
-#searchButton {
+#search-button {
   display: block;
   max-width: 80px;
   margin-left: 500px;
@@ -95,4 +101,21 @@ h2 {
 .container {
   margin-left: 60px;
   margin-bottom: 50px;
+}
+
+#condition {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#current-button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+}
+
+.signature {
+  display: block;
+  text-align: center;
 }
